@@ -36,7 +36,7 @@ for doc in nlp.pipe(train['Description'], disable = to_be_disabled):
         text_tokenized.append(k)
 ```
 **Following is what you need for this book:**
-Computers cannot understand texts or organize documents. Texts must first be converted into numeric values before they can be used to unlock the hidden connection between documents into topics. This easy-to-follow book simplifies these processes for you, unveiling the power of Gensim to perform complex topic modeling, and showcases professional use cases in medical, legal, and other business operations.
+This book is for data scientists and professionals who want to become proficient in topic modeling with Gensim. NLP practitioners can use this book as a code reference, while students or those considering a career transition will find this a valuable resource for advancing in the field of NLP. This book contains real-world applications for biomedical, healthcare, legal, and operations, making it a helpful guide for project managers designing their own topic modeling applications.
 
 With the following software and hardware list you can run all code files present in the book (Chapter 2-14).
 
