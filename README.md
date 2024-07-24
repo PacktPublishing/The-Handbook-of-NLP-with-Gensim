@@ -52,6 +52,16 @@ pre-requisites: You will need a version of Angular installed on your computer—
 * Python Natural Language Processing Cookbook  [[Packt]](https://www.packtpub.com/product/python-natural-language-processing-cookbook/9781838987312) [[Amazon]](https://www.amazon.in/Python-Natural-Language-Processing-Cookbook/dp/1838987312/ref=sr_1_1_sspa?keywords=Python+Natural+Language+Processing+Cookbook&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1)
   
 * Hands-On Python Natural Language Processing  [[Packt]](https://www.packtpub.com/product/hands-on-python-natural-language-processing/9781838989590) [[Amazon]](https://www.amazon.in/Hands-Python-Natural-Language-Processing/dp/1838989595/ref=sr_1_5?keywords=Hands-On+Python+Natural+Language+Processing&sr=8-5)
+
+## Errata
+* Page 43, The code snippet in the "NLTK for lemmatization" section (end of page) is incorrect and repeated from the previous section.
+  _The correct code should be:_
+  ```
+  from nltk.stem import WordNetLemmatizer
+  wnl = WordNetLemmatizer()
+  for w in text_tokenized:
+  print(wnl.lemmatize(w))
+  ```
   
 ## Get to Know the Author
 **Chris Kuo** is a data scientist with more than 20 years of experience. He led various data science solutions including customer analytics, health analytics, fraud detection, and litigation, and is an inventor of a U.S. patent. He has worked at the Hartford Insurance Group (HIG), the American International Group (AIG), Liberty Mutual Insurance, and the BJ’s Wholesale Club. Chris Kuo teaches at Columbia University, has taught at Boston University and other universities. He is the author of The eXplainable A.I. and Modern Time Series Anomaly Detection: With Python & R Code Examples, and Transfer Learning for Image Classification: With Python Examples. He received his undergraduate degree in Nuclear Engineering and Ph.D. in Economics
